@@ -1,0 +1,90 @@
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\Olimpijada.exe
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\FluentNHibernate.dll
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\NHibernate.dll
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\Olimpijada.exe.config
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\Iesi.Collections.dll
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\FluentNHibernate.pdb
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\FluentNHibernate.xml
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\Iesi.Collections.xml
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\NHibernate.xml
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csprojAssemblyReference.cache
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DisciplinaForma.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajDisciplinu.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajSportiste.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajSudije.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajTakmicenje.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Form1.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniDisciplinu.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniSportiste.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniSudije.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniTakmicenje.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.InfoTakmicenja.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Properties.Resources.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.RezultatiForma.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Sportisti.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.SportistiTakmiciSe.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.SudijeForma.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.TakmicenjeGlavna.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csproj.GenerateResource.cache
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csproj.CoreCompileInputs.cache
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csproj.CopyComplete
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.exe
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.pdb
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\bin\Debug\Olimpijada.pdb
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajZemlju.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojecegSudiju.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojecegSportistu.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojecuDisciplinu.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.FormaSport.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajTakmiciSe.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniTakmiciSe.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.FormaZemlja.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojeciSport.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniSport.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajSport.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Forme.DodajOstvarenRezultat.resources
+C:\Users\stefan\Desktop\Fax\SBP\Projekat- II deo\Projekat- II deo\Olimpijada\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Forme.IzmeniRezultat.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csprojAssemblyReference.cache
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DisciplinaForma.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajDisciplinu.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Forme.DodajOstvarenRezultat.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojecegSportistu.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojecegSudiju.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojeciSport.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajPostojecuDisciplinu.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajSport.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajSportiste.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajSudije.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajTakmicenje.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajTakmiciSe.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.DodajZemlju.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Form1.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.FormaSport.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.FormaZemlja.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniDisciplinu.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Forme.IzmeniRezultat.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniSport.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniSportiste.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniSudije.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniTakmicenje.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.InfoTakmicenja.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.IzmeniTakmiciSe.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Properties.Resources.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.RezultatiForma.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.Sportisti.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.SportistiTakmiciSe.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.SudijeForma.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.TakmicenjeGlavna.resources
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csproj.GenerateResource.cache
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csproj.CoreCompileInputs.cache
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\bin\Debug\Olimpijada.exe.config
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\bin\Debug\Olimpijada.exe
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\bin\Debug\Olimpijada.pdb
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\bin\Debug\FluentNHibernate.dll
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\bin\Debug\NHibernate.dll
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\bin\Debug\FluentNHibernate.xml
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\bin\Debug\NHibernate.xml
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.csproj.CopyComplete
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.exe
+C:\Users\milan\Desktop\Olimpijada\Olimpijada\obj\Debug\Olimpijada.pdb

@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A16B8CD7-AEC7-4A03-B7D0-A58071D91935}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Olimpijada</RootNamespace>
+    <AssemblyName>Olimpijada</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\proba\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentNHibernate.2.1.2\lib\net461\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\proba\packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=5.2.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.5.2.5\lib\net461\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\proba\packages\Oracle.ManagedDataAccess.19.3.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\proba\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq.EagerFetching, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\..\..\source\repos\proba\packages\Remotion.Linq.EagerFetching.2.2.0\lib\net45\Remotion.Linq.EagerFetching.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataLayer.cs" />
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="Forme\DisciplinaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DisciplinaForma.Designer.cs">
+      <DependentUpon>DisciplinaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajDisciplinu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajDisciplinu.Designer.cs">
+      <DependentUpon>DodajDisciplinu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajOstvarenRezultat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajOstvarenRezultat.Designer.cs">
+      <DependentUpon>DodajOstvarenRezultat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajPostojecegSportistu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajPostojecegSportistu.Designer.cs">
+      <DependentUpon>DodajPostojecegSportistu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajPostojecegSudiju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajPostojecegSudiju.Designer.cs">
+      <DependentUpon>DodajPostojecegSudiju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajPostojeciSport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajPostojeciSport.Designer.cs">
+      <DependentUpon>DodajPostojeciSport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajPostojecuDisciplinu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajPostojecuDisciplinu.Designer.cs">
+      <DependentUpon>DodajPostojecuDisciplinu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajSport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajSport.Designer.cs">
+      <DependentUpon>DodajSport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajSportiste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajSportiste.Designer.cs">
+      <DependentUpon>DodajSportiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajSudije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajSudije.Designer.cs">
+      <DependentUpon>DodajSudije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajTakmicenje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajTakmicenje.Designer.cs">
+      <DependentUpon>DodajTakmicenje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajTakmiciSe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajTakmiciSe.Designer.cs">
+      <DependentUpon>DodajTakmiciSe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DodajZemlju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajZemlju.Designer.cs">
+      <DependentUpon>DodajZemlju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entiteti\Disciplina.cs" />
+    <Compile Include="Entiteti\ImaDisciplinu.cs" />
+    <Compile Include="Entiteti\ImaDisciplinuId.cs" />
+    <Compile Include="Entiteti\OdrzavaSe.cs" />
+    <Compile Include="Entiteti\OdrzavaSeId.cs" />
+    <Compile Include="Entiteti\OstvarenRezultat.cs" />
+    <Compile Include="Entiteti\Sport.cs" />
+    <Compile Include="Entiteti\Sportista.cs" />
+    <Compile Include="Entiteti\Sudija.cs" />
+    <Compile Include="Entiteti\SudiNa.cs" />
+    <Compile Include="Entiteti\SudiNaId.cs" />
+    <Compile Include="Entiteti\Takmicenje.cs" />
+    <Compile Include="Entiteti\TakmiciSe.cs" />
+    <Compile Include="Entiteti\Ucestvuje.cs" />
+    <Compile Include="Entiteti\Zemlja.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\FormaSport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\FormaSport.Designer.cs">
+      <DependentUpon>FormaSport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\FormaZemlja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\FormaZemlja.Designer.cs">
+      <DependentUpon>FormaZemlja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmeniDisciplinu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmeniDisciplinu.Designer.cs">
+      <DependentUpon>IzmeniDisciplinu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmeniRezultat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmeniRezultat.Designer.cs">
+      <DependentUpon>IzmeniRezultat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmeniSport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmeniSport.Designer.cs">
+      <DependentUpon>IzmeniSport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmeniSportiste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmeniSportiste.Designer.cs">
+      <DependentUpon>IzmeniSportiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmeniSudije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmeniSudije.Designer.cs">
+      <DependentUpon>IzmeniSudije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmeniTakmicenje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmeniTakmicenje.Designer.cs">
+      <DependentUpon>IzmeniTakmicenje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmeniTakmiciSe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmeniTakmiciSe.Designer.cs">
+      <DependentUpon>IzmeniTakmiciSe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapiranja\DisciplinaMapiranja.cs" />
+    <Compile Include="Mapiranja\ImaDisciplinuMapiranja.cs" />
+    <Compile Include="Mapiranja\OdrzavaSeMapiranja.cs" />
+    <Compile Include="Mapiranja\OstvarenRezultatMapiranja.cs" />
+    <Compile Include="Mapiranja\SportistaMapiranja.cs" />
+    <Compile Include="Mapiranja\SportMapiranja.cs" />
+    <Compile Include="Mapiranja\SudijaMapiranja.cs" />
+    <Compile Include="Mapiranja\SudiNaMapiranja.cs" />
+    <Compile Include="Mapiranja\TakmicenjeMapiranja.cs" />
+    <Compile Include="Mapiranja\TakmiciSeMapiranja.cs" />
+    <Compile Include="Mapiranja\UcestvujeMapiranja.cs" />
+    <Compile Include="Mapiranja\ZemljaMapiranja.cs" />
+    <Compile Include="Forme\InfoTakmicenja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\InfoTakmicenja.Designer.cs">
+      <DependentUpon>InfoTakmicenja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forme\RezultatiForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\RezultatiForma.Designer.cs">
+      <DependentUpon>RezultatiForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Sportisti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Sportisti.Designer.cs">
+      <DependentUpon>Sportisti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\SportistiTakmiciSe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\SportistiTakmiciSe.Designer.cs">
+      <DependentUpon>SportistiTakmiciSe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\SudijeForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\SudijeForma.Designer.cs">
+      <DependentUpon>SudijeForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakmicenjaDTO.cs" />
+    <Compile Include="TakmicenjaManager.cs" />
+    <Compile Include="TakmicenjeGlavna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakmicenjeGlavna.Designer.cs">
+      <DependentUpon>TakmicenjeGlavna.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forme\DisciplinaForma.resx">
+      <DependentUpon>DisciplinaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajDisciplinu.resx">
+      <DependentUpon>DodajDisciplinu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajOstvarenRezultat.resx">
+      <DependentUpon>DodajOstvarenRezultat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajPostojecegSportistu.resx">
+      <DependentUpon>DodajPostojecegSportistu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajPostojecegSudiju.resx">
+      <DependentUpon>DodajPostojecegSudiju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajPostojeciSport.resx">
+      <DependentUpon>DodajPostojeciSport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajPostojecuDisciplinu.resx">
+      <DependentUpon>DodajPostojecuDisciplinu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajSport.resx">
+      <DependentUpon>DodajSport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajSportiste.resx">
+      <DependentUpon>DodajSportiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajSudije.resx">
+      <DependentUpon>DodajSudije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajTakmicenje.resx">
+      <DependentUpon>DodajTakmicenje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajTakmiciSe.resx">
+      <DependentUpon>DodajTakmiciSe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajZemlju.resx">
+      <DependentUpon>DodajZemlju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\FormaSport.resx">
+      <DependentUpon>FormaSport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\FormaZemlja.resx">
+      <DependentUpon>FormaZemlja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmeniDisciplinu.resx">
+      <DependentUpon>IzmeniDisciplinu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmeniRezultat.resx">
+      <DependentUpon>IzmeniRezultat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmeniSport.resx">
+      <DependentUpon>IzmeniSport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmeniSportiste.resx">
+      <DependentUpon>IzmeniSportiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmeniSudije.resx">
+      <DependentUpon>IzmeniSudije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmeniTakmicenje.resx">
+      <DependentUpon>IzmeniTakmicenje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\InfoTakmicenja.resx">
+      <DependentUpon>InfoTakmicenja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmeniTakmiciSe.resx">
+      <DependentUpon>IzmeniTakmiciSe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forme\RezultatiForma.resx">
+      <DependentUpon>RezultatiForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Sportisti.resx">
+      <DependentUpon>Sportisti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\SportistiTakmiciSe.resx">
+      <DependentUpon>SportistiTakmiciSe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\SudijeForma.resx">
+      <DependentUpon>SudijeForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakmicenjeGlavna.resx">
+      <DependentUpon>TakmicenjeGlavna.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
